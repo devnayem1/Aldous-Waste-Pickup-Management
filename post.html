@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+    
+
+<head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Single Post – aldous</title>
+        <link rel="stylesheet" href="assets/css/main.css" >
+        <link rel="stylesheet" href="assets/css/responsive.css" >
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <header class="header-container">
+            <div class="top-navbar">
+                <img src="assets/images/P07.png" alt="main-logo" class="icon-logo" >
+                <div class="navbar-information">
+                    <div class="media-social-container">
+                        <a href="#"><i class="media-social-icon fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="media-social-icon fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="media-social-icon fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="media-social-icon fa-brands fa-telegram"></i></a>
+                    </div>
+
+                    <div class="navbar-contact navbar-mail">
+                        <i class="navbar-contact-icon fa-regular fa-envelope-open"></i>
+                        <div class="navbar-contact-info">
+                            <span class="contact-name">Mail us to</span>
+                            <p class="contact-value">ald.support.mail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="navbar-contact navbar-call">
+                        <i class="navbar-contact-icon fa-solid fa-phone-volume"></i>
+                        <div class="navbar-contact-info">
+                            <span class="contact-name">Call Center</span>
+                            <p class="contact-value">+(628) 676 - 666</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Navbar Dekstop -->
+            <nav class="nv-wrapper">
+                <img src="assets/images/P07.png" alt="main-logo" class="icon-logo nv-logo" >
+                <div class="nv-menu">
+                    <ul class="nv-list">
+                        <li><a class="nv-link" href="index.html">Home</a></li>
+                        <li><a class="nv-link" href="about.html">About Us</a></li>
+                        <li><a class="nv-link" href="service.html">Service</a></li>
+
+                        <li class="nv-has-dropdown nv-dropdown-parent">
+                            <a class="nv-link" href="#page">Page <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="nv-dropdown">
+                                <li><a class="nv-link" href="testimonial.html">Testimonial</a></li>
+                                <li><a class="nv-link" href="why.html">Why Choose Us</a></li>
+                                <li><a class="nv-link" href="pricing.html">Pricing</a></li>
+                                <li><a class="nv-link" href="404-page.html">404 Page</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a class="nv-link" href="contact.html">Contact Us</a></li>
+
+                        <li class="nv-has-dropdown nv-dropdown-parent">
+                            <a class="nv-link" href="#blog">Blog <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="nv-dropdown">
+                                <li><a class="nv-link" href="blog.html">Blog</a></li>
+                                <li><a class="nv-link" href="post.html">Single Post</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="#" class="service-button service-navbar-button">
+                    Get Service
+                    <i class="icon-button fa-solid fa-circle-arrow-right"></i>
+                </a>
+
+                <button class="nv-burger" id="openMobileMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Navbar Mobile (Sidebar) -->
+        <nav class="sb-panel" id="mobileSidebar">
+            <div class="sb-top">
+                <button class="sb-close-btn" id="closeMobileMenu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <ul class="sb-list">
+                <li><a class="nv-link" href="index.html">Home</a></li>
+                <li><a class="nv-link" href="about.html">About us</a></li>
+                <li><a class="nv-link" href="service.html">Service</a></li>
+
+                <li class="sb-has-dropdown nv-dropdown-parent">
+                    <a class="nv-link" href="#pages">Pages <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="sb-submenu">
+                        <li><a class="nv-link" href="testimonial.html">Testimonial</a></li>
+                        <li><a class="nv-link" href="why.html">Why Choose Us</a></li>
+                        <li><a class="nv-link" href="pricing.html">Pricing</a></li>
+                        <li><a class="nv-link" href="404-page.html">404 Page</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="nv-link" href="contact.html">Contact us</a></li>
+
+                <li class="sb-has-dropdown nv-dropdown-parent">
+                    <a class="nv-link" href="#blog">Blog <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="sb-submenu">
+                        <li><a class="nv-link" href="blog.html">Blog</a></li>
+                        <li><a class="nv-link" href="post.html">Single Post</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Banner Page Section -->
+            <section class="section banner-page-section">
+                <div class="banner-page__page-layout">
+                    <div class="banner-page">
+                        <div class="banner-description">
+                            <h1 class="banner-title animation-box anim-normal anim-delay-sm" data-animation="fade-up">
+                                Single Post
+                            </h1>
+                            <p
+                                class="banner-page-description animation-box anim-fast anim-delay-sm"
+                                data-animation="fade-up"
+                            >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <div class="banner-title-and-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News Menu Section -->
+            <section class="section section-news-menu">
+                <div class="page-container news-menu__page-layout">
+                    <div class="news-menu-home">
+                        <div class="news-menu-container">
+                            <div class="news-menu-detail">
+                                <h2
+                                    class="news-menu-title animation-box anim-medium anim-delay-md"
+                                    data-animation="fade-left"
+                                >
+                                    Witri & Team Ready Cleaning Residential
+                                </h2>
+                                <div class="news-menu-header">
+                                    <img
+                                        src="assets/images/woman-collecting-garbage-in-a-black-bag-2025-01-29-08-19-25-utc.jpg"
+                                        alt="News Image"
+                                        class="news-menu-image"
+                                    >
+
+                                    <div class="news-menu-summary">
+                                        <h3
+                                            class="news-menu-subtitle animation-box anim-slow anim-delay-md"
+                                            data-animation="fade-left"
+                                        >
+                                            Excepteur sint occaecat
+                                        </h3>
+
+                                        <p class="animation-box anim-slow anim-delay-lg" data-animation="fade-left">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo. Nemo enim ipsam
+                                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                            conseqet, consectetur, adipisci velit, sed quia non numquam eius modi.
+                                        </p>
+
+                                        <p class="animation-box anim-slow anim-delay-lg" data-animation="fade-left">
+                                            tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem do
+                                            eiusmod tempor incididunt ut labore et dolorequis nostrud exercitation
+                                            ullamco laboris nisi ut aliquip ex ea commodo consequa
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="news-menu-description">
+                                    <p class="animation-box anim-slow anim-delay-lg" data-animation="fade-left">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+                                        nec ullamcorper mattis, pulvinar dapibus leo. Nemo enim ipsam voluptatem quia
+                                        voluptas sit aspernatur aut odit aut fugit, sed quia conseqet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                                        dolore magnam aliquam quaerat voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="news-menu-sidebar">
+                                <h3 class="other-post-title font-sm">Other Post</h3>
+
+                                <div class="other-post-container">
+                                    <a
+                                        href="#"
+                                        class="other-post-card animation-box anim-fast anim-delay-md"
+                                        data-animation="fade-left"
+                                    >
+                                        <img
+                                            src="assets/images/multiethnic-workers-in-protective-gloves-and-vests-2024-11-09-08-35-28-utc.jpg"
+                                            alt="news"
+                                            class="other-post-image"
+                                        >
+
+                                        <div class="other-post-info">
+                                            <div class="other-post-date">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <span>19 Oct 2025</span>
+                                            </div>
+
+                                            <h3 class="other-post-name font-xxs">
+                                                Recycle Process at Waste Center For Greener World
+                                            </h3>
+                                        </div>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        class="other-post-card animation-box anim-fast anim-delay-md"
+                                        data-animation="fade-left"
+                                    >
+                                        <img
+                                            src="assets/images/garbage-collection-day-2025-04-06-12-03-55-utc.jpg"
+                                            alt="news"
+                                            class="other-post-image"
+                                        >
+
+                                        <div class="other-post-info">
+                                            <div class="other-post-date">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <span>19 Oct 2025</span>
+                                            </div>
+
+                                            <h3 class="other-post-name font-xxs">
+                                                Witri & Team Ready For Cleaning Residential
+                                            </h3>
+                                        </div>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        class="other-post-card animation-box anim-fast anim-delay-md"
+                                        data-animation="fade-left"
+                                    >
+                                        <img
+                                            src="assets/images/multiethnic-workers-in-protective-gloves-and-vests-2024-11-09-08-35-28-utc.jpg"
+                                            alt="news"
+                                            class="other-post-image"
+                                        >
+
+                                        <div class="other-post-info">
+                                            <div class="other-post-date">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <span>19 Oct 2025</span>
+                                            </div>
+
+                                            <h3 class="other-post-name font-xxs">
+                                                Recycle Process at Waste Center For Greener World
+                                            </h3>
+                                        </div>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        class="other-post-card animation-box anim-fast anim-delay-md"
+                                        data-animation="fade-left"
+                                    >
+                                        <img
+                                            src="assets/images/garbage-collection-day-2025-04-06-12-03-55-utc.jpg"
+                                            alt="news"
+                                            class="other-post-image"
+                                        >
+
+                                        <div class="other-post-info">
+                                            <div class="other-post-date">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <span>19 Oct 2025</span>
+                                            </div>
+
+                                            <h3 class="other-post-name font-xxs">
+                                                Witri & Team Ready For Cleaning Residential
+                                            </h3>
+                                        </div>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        class="other-post-card animation-box anim-fast anim-delay-md"
+                                        data-animation="fade-left"
+                                    >
+                                        <img
+                                            src="assets/images/multiethnic-workers-in-protective-gloves-and-vests-2024-11-09-08-35-28-utc.jpg"
+                                            alt="news"
+                                            class="other-post-image"
+                                        >
+
+                                        <div class="other-post-info">
+                                            <div class="other-post-date">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <span>19 Oct 2025</span>
+                                            </div>
+
+                                            <h3 class="other-post-name font-xxs">
+                                                Recycle Process at Waste Center For Greener World
+                                            </h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="section footer-section">
+            <div class="footer__page-layout">
+                <div class="footer-home">
+                    <div class="footer-company">
+                        <img
+                            src="assets/images/P07.png"
+                            alt="main-logo"
+                            class="icon-logo animation-box anim-normal anim-delay-none"
+                            data-animation="fade-up"
+                        >
+
+                        <h3 class="footer-title animation-box anim-normal anim-delay-sm" data-animation="fade-up">
+                            Smart Waste Solutions & Management
+                        </h3>
+
+                        <p class="footer-decription animation-box anim-normal anim-delay-sm" data-animation="fade-up">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit telluso.
+                        </p>
+
+                        <div
+                            class="media-social-container animation-box anim-normal anim-delay-md"
+                            data-animation="fade-up"
+                        >
+                            <a href="#"><i class="media-social-icon fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="media-social-icon fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="media-social-icon fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="media-social-icon fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-company-info">
+                        <div class="footer-navigation">
+                            <div class="footer-menu">
+                                <h4
+                                    class="footer-menu-title animation-box anim-slow anim-delay-md"
+                                    data-animation="fade-up"
+                                >
+                                    Page
+                                </h4>
+
+                                <ul
+                                    class="footer-menu-list animation-box anim-slow anim-delay-lg"
+                                    data-animation="fade-up"
+                                >
+                                    <li><a class="footer-menu-item" href="#">Home</a></li>
+                                    <li><a class="footer-menu-item" href="#">Service</a></li>
+                                    <li><a class="footer-menu-item" href="#">About us</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h4
+                                    class="footer-menu-title animation-box anim-slow anim-delay-md"
+                                    data-animation="fade-up"
+                                >
+                                    Other
+                                </h4>
+
+                                <ul
+                                    class="footer-menu-list animation-box anim-slow anim-delay-lg"
+                                    data-animation="fade-up"
+                                >
+                                    <li><a class="footer-menu-item" href="#">Blog</a></li>
+                                    <li><a class="footer-menu-item" href="#">Single Post</a></li>
+                                    <li><a class="footer-menu-item" href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h4
+                                    class="footer-menu-title animation-box anim-slow anim-delay-md"
+                                    data-animation="fade-up"
+                                >
+                                    More Info
+                                </h4>
+                                <div class="footer-contact-item">
+                                    <div
+                                        class="footer-contact-item animation-box anim-slow anim-delay-lg"
+                                        data-animation="fade-up"
+                                    >
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <span>adl.support.mail.com</span>
+                                    </div>
+
+                                    <div
+                                        class="footer-contact-item animation-box anim-slow anim-delay-lg"
+                                        data-animation="fade-up"
+                                    >
+                                        <i class="fa-solid fa-clock"></i>
+                                        <span>Mon - Fri : 9.00 am - 5.00 pm</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="footer-bottom">
+                            <p class="copyright animation-box anim-slow anim-delay-lg" data-animation="fade-up">
+                            Copyright © 2026 All Rights Reserved || Designed By Developer Nayem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,383 @@
+@media screen and (max-width: 1024px){
+:root{
+    --font-xl: 3.5rem;
+    --font-lg: 2rem;
+    --font-md: 1.25rem;
+    --font-sm: 1.125rem;
+    --font-xs: 1.125rem;
+    --font-xxs: 1rem;
+}
+
+.page-container{
+    padding: 4.5em 0;
+}
+
+
+/* --------------------------- Navbar Style --------------------------- */
+.header-container{
+    padding: 1em;
+}
+
+.top-navbar, 
+.header-container hr,
+.nv-menu,
+.service-navbar-button{
+    display: none;
+}
+
+.nv-logo{
+    display: block;
+}
+
+.nv-burger{
+    display: block;
+}
+
+/* --------------------------- Banner Style --------------------------- */
+.banner-home{
+    flex-direction: column-reverse;
+    padding: 96px 16px 10px;
+}
+
+.banner-page{
+    padding: 350px 28px 56px;
+}
+
+.banner-notFound{
+    padding: 384px 32px 64px;
+}
+
+.banner-page-description{
+    width: 70%;
+}
+
+.register-form{
+    max-width: none;
+    width: 100%;
+    background-position: 0px 0px;
+}
+
+.banner-title-and-menu{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.banner-title{
+    width: 100%;
+}
+
+.spacer{
+    height: 150px;
+}
+
+/* --------------------------- Service Style --------------------------- */
+.service-top{
+    flex-direction: column;
+}
+
+.service-tabs-container{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.service-option-tabs{
+    flex-direction: row;
+}
+
+.option-button{
+    flex: 1;
+    text-align: left;
+}
+
+/* --------------------------- About Us Style --------------------------- */
+.about-home{
+    flex-direction: column-reverse;
+}
+
+.about-content-image{
+    width: 100%;
+    background-position: center;
+}
+
+.card-achievement{
+    right: 15px;
+}
+
+.achievement-subtitle{
+    width: 300px;
+    max-width: none;
+}
+
+.about-content-description{
+    width: 100%;
+    align-items: flex-start;
+}
+
+.about-features{
+    width: 80%;
+    align-self: flex-start;
+}
+
+.about-feature-box{
+    flex: 1;
+}
+
+.about-progress{
+    align-self: flex-start;
+}
+
+/* --------------------------- Why Choose Us Style --------------------------- */
+.why-home{
+    gap: 35px;
+}
+.why-banner{
+    padding: 32px 0 0 24px;
+}
+
+.spacer-2{
+    height: 0px;
+}
+
+.why-bottom{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.divider{
+    width: 100%;
+}
+
+/* --------------------------- Testimonial Style --------------------------- */
+.testimonial-home{
+    gap: 45px;
+}
+.testimonial-comment{
+    flex-direction: column;
+}
+
+.testimonial-left{
+    width: 100%;
+    position: static;
+}
+
+.testimonial-left-img-image{
+    width: 100%;
+}
+
+.testimonial-left-img{
+    width: 100%;
+    object-position: center left;
+
+}
+
+.testimonial-bottom{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-statistic{
+    place-items: center;
+}
+
+.stat-description{
+    margin: 0;
+}
+.shadow-number-stat{
+    font-size: 4rem;
+    top: -20px;
+    left: -60px;
+}
+
+/* --------------------------- Pricing service Style --------------------------- */
+.pricing-section{
+    padding-top: 64px;
+}
+
+.pricing-top{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pricing-right{
+    width: 100%;
+}
+
+.pricing-card-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* --------------------------- Blog & News Style --------------------------- */
+.blog-card{
+    flex-direction: column-reverse;
+    
+}
+
+.blog-content{
+    width: 100%;
+    padding: 35px;
+}
+
+.blog-image{
+    width: 100%;
+    max-height: 400px;
+}
+
+/* =========================== Contact Us Style =========================== */
+.contact__page-layout{
+    padding: 0;
+}
+
+.contact-home{
+    padding-top: 120px;
+    background-position: center;
+}
+
+.contact-form-container{
+    left: -40px;
+    bottom: -60px;
+}
+
+.contact-form-header{
+    flex-direction: column;
+}
+.contact-form{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+}
+
+/* =========================== News Menu Style =========================== */
+.news-menu-container{
+    grid-template-columns: 1fr;
+}
+
+.news-menu-sidebar{
+    width:100%;
+}
+
+.news-menu-container{
+    grid-template-columns: 1fr;
+}
+
+.news-menu-sidebar{
+    width:100%;
+}
+
+/* =========================== Footer Style =========================== */
+.footer-home{
+    flex-direction: column;
+}
+
+.footer-company-info{
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 767.98px){
+:root{
+    --font-xl: 2.5rem;
+    --font-lg: 1.75rem;
+    --font-md: 1.25rem;
+    --font-sm: 1.125rem;
+    --font-xs: 1.125rem;
+    --font-xxs: 0.875rem;
+}
+
+
+/* --------------------------- banner Style --------------------------- */
+.form-input-top{
+    flex-direction: column;
+}
+
+.banner-page-description{
+    width: 100%;
+}
+
+.banner-icon-second{
+    padding: 6px;
+}
+
+.banner-icon{
+    font-size: 30px;
+}
+
+/* --------------------------- About Us Style --------------------------- */
+.service-option-tabs{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-option-description{
+    flex-direction: column;
+}
+
+.option-description-img{
+    width: 100%;
+}
+
+/* --------------------------- About Us Style --------------------------- */
+.about-features{
+    flex-direction: column;
+    width: 100%;
+}
+
+/* --------------------------- Why Choose Us Style --------------------------- */
+.why-banner{
+    background-position: center;
+    padding: 0;
+}
+
+.why-heading-container{
+    width: 66%;
+}
+
+.more-info{
+    padding: 14px 34px;
+    bottom: -45px;
+    flex-direction: column;
+}
+
+.why-bottom{
+    padding-top: 30px;
+}
+.about-benefits{
+    flex-direction: column;
+}
+
+/* --------------------------- Testimonial Style --------------------------- */
+.shadow-number-stat{
+    font-size: 45px;
+    top: 0;
+    left: -50px;
+}
+
+/* --------------------------- Pricing Service Style --------------------------- */
+.pricing-image img{
+    height: 43vh;
+}
+.pricing-card-container{
+    grid-template-columns: 1fr;
+}
+
+/* --------------------------- Contact Us Style --------------------------- */
+.contact-home{
+    padding: 42px 0 0 14px;
+}
+
+.contact-form{
+    grid-template-columns: 1fr;
+}
+
+.contact-form-container{
+    bottom: -20px;
+    left: -14px;
+}
+
+/* --------------------------- News Menu Style --------------------------- */
+.news-menu-header{
+    grid-template-columns: 1fr;
+}
+/* --------------------------- Footer Style --------------------------- */
+.copyright{
+    text-align: center;
+}
+}
